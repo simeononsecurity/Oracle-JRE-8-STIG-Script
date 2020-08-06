@@ -11,6 +11,8 @@ Finally a script to apply the JRE 8 STIG. You're Welcome ;).
 
 - [cbu.edu - Java Technotes](http://stu.cbu.edu/java/docs/technotes/guides/deploy/properties.html)
 
+- [Oracle - Java Technotes](https://docs.oracle.com/javase/7/docs/technotes/guides/jweb/security/exception_site_list.html) 
+
 ## How to run the script
 
 **The script may be lauched from the extracted GitHub download like this:**
