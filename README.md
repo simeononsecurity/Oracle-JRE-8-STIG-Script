@@ -1,5 +1,5 @@
 
-#Automate Oracle JRE 8 STIGS
+# Automate Oracle JRE 8 STIGS
 
 Finally a script to apply the JRE 8 STIG. You're Welcome ;).
 
