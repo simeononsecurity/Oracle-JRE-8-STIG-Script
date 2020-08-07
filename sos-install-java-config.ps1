@@ -16,4 +16,5 @@ If (Test-Path -Path "C:\Windows\Sun\Java\Deployment\"){
     Copy-Item -Path .\Files\deployment.config -Destination "C:\Windows\Sun\Java\Deployment\" -Force
     Copy-Item -Path .\Files\deployment.properties -Destination "C:\temp\JAVA\" -Force
     Copy-Item -Path .\Files\exception.sites -Destination "C:\temp\JAVA\"" -Force
+    Write-Host "JAVA Configs Applied"
 }
