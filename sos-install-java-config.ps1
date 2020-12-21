@@ -1,5 +1,6 @@
 #https://gist.github.com/MyITGuy/9628895
 #http://stu.cbu.edu/java/docs/technotes/guides/deploy/properties.html
+#https://github.com/simeononsecurity/JAVA-STIG-Script
 
 #<Windows Directory>\Sun\Java\Deployment\deployment.config
 #- or -
