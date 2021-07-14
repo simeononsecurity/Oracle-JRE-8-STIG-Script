@@ -7,19 +7,19 @@
 #<JRE Installation Directory>\lib\deployment.config
 
 If (Test-Path -Path "C:\Windows\Sun\Java\Deployment\deployment.config"){
-    Write-Host "Deployment Config Already Installed"
+    Write-Host "JAVA Deployment Config Already Installed" -ForegroundColor Green -BackgroundColor Black
 }Else {
-    Write-Output "Installing Java Deployment Config...."
+    Write-Host "Installing JAVA Deployment Config...." -ForegroundColor Green -BackgroundColor Black
     Mkdir "C:\Windows\Sun\Java\Deployment\"
     Copy-Item -Path .\Files\deployment.config -Destination "C:\Windows\Sun\Java\Deployment\" -Force
-    Write-Output "JAVA Configs Installed"
+    Write-Host "JAVA Configs Installed" -ForegroundColor White -BackgroundColor Black
 }
 If (Test-Path -Path "C:\temp\JAVA\"){
-    Write-Host "Configs Already Deployed"
+    Write-Host " JAVA Configs Already Deployed" -ForegroundColor Green -BackgroundColor Black
 }Else {
-    Write-Output "Installing Java Configurations...."
+    Write-Host "Installing JAVA Configurations...." -ForegroundColor Green -BackgroundColor Black
     Mkdir "C:\temp\JAVA"
     Copy-Item -Path .\Files\deployment.properties -Destination "C:\temp\JAVA\" -Force
     Copy-Item -Path .\Files\exception.sites -Destination "C:\temp\JAVA\" -Force
-    Write-Output "JAVA Configs Installed"
+    Write-Host "JAVA Configs Installed" -ForegroundColor White -BackgroundColor Black
 }
