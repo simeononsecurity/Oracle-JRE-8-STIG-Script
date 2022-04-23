@@ -6,6 +6,13 @@
 #- or -
 #<JRE Installation Directory>\lib\deployment.config
 
+#Require elivation for script run
+Write-Output "Elevating priviledges for this process"
+do {} until (Elevate-Privileges SeTakeOwnershipPrivilege)
+
+#Set Directory to PSScriptRoot
+if ((Get-Location).Path -NE $PSScriptRoot) { Set-Location $PSScriptRoot }
+
 If (Test-Path -Path "C:\Windows\Sun\Java\Deployment\deployment.config"){
     Write-Host "JAVA Deployment Config Already Installed" -ForegroundColor Green -BackgroundColor Black
 }Else {
