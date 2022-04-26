@@ -7,6 +7,11 @@ Finally a script to apply the JRE 8 STIG. You're Welcome ;).
 
 This will bring you to 100% compliance on the applicable STIG and might break your JAVA applications. As with any STIG, testing should be done before a full roleout.
 
+## Ansible:
+We now offer a playbook collection for this script. Please see the following:
+- [Github Repo](https://github.com/simeononsecurity/Windows_STIG_Ansible)
+- [Ansible Galaxy](https://galaxy.ansible.com/simeononsecurity/windows_stigs)
+
 ## STIGS/SRGs Applied:
 
 - [Oracle JRE 8 V1R5](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Oracle_JRE_8_Windows_V1R5_STIG.zip)
