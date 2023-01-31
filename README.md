@@ -1,7 +1,7 @@
 
 # Automate Oracle JRE 8 (JAVA) STIGS
 
-Finally a script to apply the JRE 8 STIG. You're Welcome ;).
+The following script is an automation process for installing Java deployment configurations using PowerShell. The script first elevates the privileges of the current process and sets the directory to the location of the script. It then checks if the "deployment.config" file is present in the default JRE installation directory and the Windows directory. If not, the script installs the "deployment.config" file in the Windows directory, and checks for the "deployment.properties" and "exception.sites" files. If these files are not present, the script installs them in the Windows directory. The status of the installations is displayed with appropriate messages.
 
 ## Notes:
 
