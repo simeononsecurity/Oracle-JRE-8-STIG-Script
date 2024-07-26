@@ -1,7 +1,7 @@
 
 # Automate Oracle JRE 8 (JAVA) STIGS
 
-[![VirusTotal Scan](https://github.com/simeononsecurity/Oracle-JRE-8-STIG-Script/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/Oracle-JRE-8-STIG-Script/actions/workflows/virustotal.yml)
+ [![Sponsor](https://img.shields.io/badge/Sponsor-Click%20Here-ff69b4)](https://github.com/sponsors/simeononsecurity) [![VirusTotal Scan](https://github.com/simeononsecurity/Oracle-JRE-8-STIG-Script/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/Oracle-JRE-8-STIG-Script/actions/workflows/virustotal.yml)
 
 The following script is an automation process for installing Java deployment configurations using PowerShell. The script first elevates the privileges of the current process and sets the directory to the location of the script. It then checks if the "deployment.config" file is present in the default JRE installation directory and the Windows directory. If not, the script installs the "deployment.config" file in the Windows directory, and checks for the "deployment.properties" and "exception.sites" files. If these files are not present, the script installs them in the Windows directory. The status of the installations is displayed with appropriate messages.
 
